@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body {
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 70px;
+  border: none; }
+
+.navbar2 {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.navbar-nav {
+  padding-top: 12px;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  font-weight: bold; }
+  .navbar-nav li a {
+    color: #1b1e38 !important; }
+
+.container-fluid {
+  width: 80%; }
+
+.marca {
+  margin-left: 10px !important;
+  margin-right: 10px; }
+
+.logopequeño {
+  height: 40px;
+  width: auto; }
+
+/*-- EFECTO DE HOVER NAVEGADOR --*/
+.cl-effect-4 a {
+  padding: 0 0 10px; }
+
+.cl-effect-4 a::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #e71e73;
+  content: '';
+  opacity: 0;
+  -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+  transition: height 0.3s, opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px); }
+
+.cl-effect-4 a:hover::after,
+.cl-effect-4 a:focus::after {
+  height: 3px;
+  opacity: 1;
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  transform: translateY(-5px); }
+
+/*# sourceMappingURL=estilo1.css.map */
