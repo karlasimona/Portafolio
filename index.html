@@ -1,0 +1,173 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- AGREGAR JQUERY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- NORMALIZE-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Propios -->
+  <title>Yesmonkey</title>
+	<link rel="stylesheet" type="text/css" href="estilo1.css">
+  <link rel="stylesheet" type="text/css" href="estilocuerpo.css">
+	<link rel="stylesheet" type="text/css" href="estilofooter.css">
+  <script src="menu.js"></script>
+  <link rel="icon" href="img/fav.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+</head>
+
+<body>
+<!-- MENU DE NAVEGACION -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img class="logopequeño" alt="Brand" src="img/final/marca_hor_s.png">
+      </a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right cl-effect-4">
+        <li><a href="#carousel-example-generic">Sobre mí</a></li>
+        <li><a href="#">Trabajos </a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<!-- CONTENEDOR GENERAL DE HEADER - SOBRE MÍ -->
+<!-- HEADER -->
+<div class="header_sobre">
+  <div class="header_imagen"> <!-- contenedor que tendra la img de fondo fixed en css-->
+      <div class="mas">
+        <p>Haz scroll para ver más <i class="arrow down"></i></p>
+      </div>
+  </div>
+  <!-- SOBRE MÍ -->
+    <div class="sobremi">
+				<h5>Sobre mí</h5>
+        <h3>HOLA!</h3>
+        <p class="texto_sobre">lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <div class="boton_cv">
+          <button type="button" class="btn btn-lg btn-1 btn-1c" data-toggle="modal" data-target=".bs-example-modal-lg">ver cv</button>
+          <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <img class="resume" src="img/resume.jpg">
+              </div>
+            </div>
+          </div>
+        </div><!--/boton_cv-->
+
+    </div><!--/sobremi-->
+</div><!--/header_sobre-->
+
+<!-- TRABAJOS -->
+<div class="header_trabajos"> <!-- contenedor que tendra la img de fondo fixed en css-->
+    <div class="caption">
+      <span class="border">PORTAFOLIO</span>
+    </div>
+</div>
+
+<div class="trabajos">
+  <div class="editorial cont container-fluid">
+    <div class="info col-lg-7 col-md-7 col-sm-12">
+      <h2>EDITORIAL/BRANDING</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			<div class="boton_mas">
+				<a class="btn btn-1 btn-1c" href="#" role="button">ver más</a>
+			</div>
+		</div>
+      <div href="" class="enlace col-lg-5 col-md-5 col-sm-12">
+				<img class="img-responsive" src="img/final/jared.jpg" alt="">
+			</div>
+  </div>
+
+  <div class="web cont container-fluid">
+    <div href="" class="enlace col-lg-5 col-md-5 col-sm-12">
+			<img class="img-responsive" src="img/final/fontisima.jpg" alt="">
+		</div>
+    <div class="info col-lg-7 col-md-7 col-sm-12">
+      <h2>DISEÑO WEB</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				<div class="boton_mas">
+					<a class="btn btn-1 btn-1c" href="#" role="button">ver más</a>
+				</div>
+		</div>
+  </div>
+
+  <div class="interactivo cont container-fluid">
+    <div class="info col-lg-7 col-md-7 col-sm-12">
+      <h2>DISEÑO UX</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				<div class="boton_mas">
+					<a class="btn btn-1 btn-1c" href="#" role="button">ver más</a>
+				</div>
+		</div>
+    <div href="" class="enlace col-lg-5 col-md-5 col-sm-12">
+			<img class="img-responsive" src="img/final/fontisima-juego.jpg" alt="">
+		</div>
+  </div>
+
+  <div class="infografico cont container-fluid">
+    <div href="" class="enlace col-lg-5 col-md-5 col-sm-12">
+			<img class="img-responsive" src="img/final/malla.jpg" alt="">
+		</div>
+		<div class="info col-lg-7 col-md-7 col-sm-12">
+      <h2>INFOGRAFÍAS/ICONOS</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			<div class="boton_mas">
+				<a class="btn btn-1 btn-1c" href="#" role="button">ver más</a>
+			</div>
+		</div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <ul class="iconos">
+    <li>
+      <a href="">
+        <img src="img/final/face.png">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <img src="img/final/ins.png">
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <img src="img/final/be.png">
+      </a>
+    </li>
+  </ul>
+	<div class="correo">
+  Escríbeme a <i>ka.espinozan@gmail.com </i>
+  </div>
+  <div class="mensaje">
+  © Yesmonkey Diseño - 2017
+  </div>
+</footer>
+
+
+</body>
+
+</html>

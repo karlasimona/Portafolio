@@ -1,0 +1,37 @@
+footer {
+  background-color: #1b1e38;
+  padding: 10px; }
+  footer ul {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0px;
+    text-align: center; }
+  footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px; }
+  footer img {
+    width: 30px; }
+
+.iconos li a img:hover {
+  opacity: 0.5; }
+
+.mensaje {
+  color: white;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 10px; }
+
+.correo {
+  color: #e71e73;
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  text-align: center; }
+  .correo i {
+    color: white;
+    font-style: normal;
+    margin-left: 3px; }
+
+/*# sourceMappingURL=estilofooter.css.map */
